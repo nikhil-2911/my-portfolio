@@ -1,0 +1,21 @@
+.logo {
+    width: 50px;
+  }
+  
+  .nav-theme {
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .animate-navbar {
+    animation: moveDown 0.5s ease-in-out;
+  }
+  
+  @keyframes moveDown {
+    from {
+      transform: translateY(-5rem);
+    }
+    to {
+      transform: translateY(0rem);
+    }
+  }
